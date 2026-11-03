@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+}
+:root{
+    --x:400px;
+    --y:400px;
+
+}
+body{
+    background-image: url('loki.webp');
+    background-size: cover;
+        
+}
+
+.box{
+    height: 100%;
+    width: 100%;
+   background:radial-gradient(100px at var(--x) var(--y),transparent,rgba(0, 0, 0, 0.897));
+    
+}
